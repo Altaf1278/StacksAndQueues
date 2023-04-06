@@ -16,7 +16,13 @@ public class StacksAndQueue {
 
 		System.out.println("The Queue elements are : " + queue);
 		System.out.println("The Peek element is :" + queue.peek());
-
+ 
+		int number1 = queue.remove();
+		System.out.println("After Removing the Element : " + number1);
+		
+		int number2 = queue.remove();
+		System.out.println("After Removing the Element : " + number2);
+		System.out.println("The Queue elements are : " + queue);
 	}
 
 }
